@@ -1,0 +1,426 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>KlikSIMRS — Sistem Informasi Manajemen Rumah Sakit</title>
+  <meta name="description" content="KlikSIMRS menyatukan pendaftaran, IGD, rawat inap, hemodialisa, farmasi, klaim BPJS, dan laporan direksi dalam satu SIMRS terintegrasi SATUSEHAT.">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ================= HEADER ================= -->
+<header class="header">
+  <div class="container header__inner">
+    <a href="#top" class="header__logo" aria-label="KlikSIMRS beranda">
+      <img src="assets/logo.svg" alt="KlikSIMRS" width="172" height="40">
+    </a>
+    <nav class="nav" id="main-nav" aria-label="Navigasi utama">
+      <a href="#modul">Modul</a>
+      <a href="#hemodialisa">Hemodialisa</a>
+      <a href="#integrasi">Integrasi</a>
+      <a href="#paket">Paket</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+    <div class="header__actions">
+      <a href="https://wa.me/6289699935552" class="header__link" target="_blank" rel="noopener">Hubungi Sales</a>
+      <a href="#demo" class="btn btn--accent">Jadwalkan Demo</a>
+      <button type="button" class="nav-toggle" aria-label="Buka menu" aria-expanded="false" aria-controls="main-nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+<!-- ================= HERO ================= -->
+<section class="hero">
+  <div class="container hero__grid">
+    <div class="hero__copy">
+      <span class="badge"><span class="badge__dot"></span>SIMRS terintegrasi SATUSEHAT &amp; BPJS</span>
+      <h1 class="hero__title">Satu sistem untuk seluruh pelayanan rumah sakit Anda.</h1>
+      <p class="hero__text">Dari pendaftaran, IGD, rawat inap, hemodialisa, hingga klaim BPJS dan laporan direksi — KlikSIMRS menyatukan data pasien, tindakan, dan tagihan agar tim RS bekerja lebih cepat dan klaim lebih rapi.</p>
+      <div class="hero__cta">
+        <a href="#demo" class="btn btn--accent btn--lg">Jadwalkan Demo Gratis <img src="assets/icons/arrow-right.svg" alt=""></a>
+        <a href="#modul" class="btn btn--outline btn--lg">Lihat Modul</a>
+      </div>
+      <ul class="hero__checks">
+        <li><img src="assets/icons/check.svg" alt="">Pendampingan sampai go-live</li>
+        <li><img src="assets/icons/check.svg" alt="">Migrasi data lama</li>
+        <li><img src="assets/icons/check.svg" alt="">Tim support lokal</li>
+      </ul>
+    </div>
+
+    <div class="hero__visual">
+      <div class="mockup" role="img" aria-label="Contoh tampilan dasbor direksi KlikSIMRS">
+        <div class="mockup__bar"><span></span><span></span><span></span><p>Dasbor Direksi · KlikSIMRS</p></div>
+        <div class="mockup__body">
+          <div class="mockup__side" aria-hidden="true">
+            <div class="is-active">Dasbor</div>
+            <div>Pendaftaran</div>
+            <div>Rawat Jalan</div>
+            <div>IGD</div>
+            <div>Rawat Inap</div>
+            <div>Hemodialisa</div>
+            <div>Farmasi</div>
+            <div>Casemix</div>
+          </div>
+          <div class="mockup__main" aria-hidden="true">
+            <div class="kpis">
+              <div class="card-sm"><div class="kpi__label">Kunjungan hari ini</div><div class="kpi__value">412</div><div class="kpi__note kpi__note--up">▲ 8% vs kemarin</div></div>
+              <div class="card-sm"><div class="kpi__label">BOR</div><div class="kpi__value">78%</div><div class="progress"><span style="width:78%"></span></div></div>
+              <div class="card-sm"><div class="kpi__label">Klaim BPJS siap</div><div class="kpi__value">96</div><div class="kpi__note kpi__note--warn">7 butuh koreksi</div></div>
+            </div>
+            <div class="card-sm">
+              <div class="chart__head"><div class="chart__title">Pendapatan 7 hari</div><div class="chart__legend">Umum · BPJS · Asuransi</div></div>
+              <div class="bars">
+                <span style="height:52%"></span><span style="height:64%"></span><span style="height:58%"></span><span style="height:74%"></span><span style="height:69%"></span><span style="height:82%"></span><span class="is-current" style="height:92%"></span>
+              </div>
+            </div>
+            <div class="card-sm queue">
+              <div class="chart__title">Antrean poli</div>
+              <div class="queue__row"><span>Poli Penyakit Dalam</span><span>A-024 · 12 menunggu</span></div>
+              <div class="queue__row"><span>Poli Anak</span><span>B-011 · 6 menunggu</span></div>
+              <div class="queue__row"><span>Unit Hemodialisa</span><span>Sesi 2 · 9 bed terisi</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= INTEGRASI ================= -->
+<section id="integrasi" class="section--bordered">
+  <div class="container trust">
+    <p class="trust__text">Dibangun oleh tim KLIKMEDIS — dipercaya lebih dari 450 fasilitas kesehatan · Terhubung dengan layanan kesehatan nasional</p>
+    <ul class="chips">
+      <li>SATUSEHAT</li>
+      <li>BPJS VClaim</li>
+      <li>E-Klaim INA-CBG</li>
+      <li>Antrean Online Mobile JKN</li>
+      <li>SIRS Online Kemenkes</li>
+      <li>LIS &amp; PACS</li>
+      <li>WhatsApp Gateway</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ================= MASALAH -> SOLUSI ================= -->
+<section class="section">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Kenapa RS butuh SIMRS yang terhubung</span>
+      <h2 class="section-title">Data yang tercecer di banyak aplikasi membuat klaim tertunda dan keputusan terlambat.</h2>
+    </div>
+    <div class="grid grid--3">
+      <article class="compare">
+        <span class="pill pill--before">Sebelum</span>
+        <p>Berkas klaim BPJS dikumpulkan manual dari poli, lab, dan farmasi — sering kurang lengkap dan dikembalikan.</p>
+        <div class="divider"></div>
+        <span class="pill pill--after">Dengan KlikSIMRS</span>
+        <p class="compare__after">Resume, hasil penunjang, dan koding INA-CBG terkumpul otomatis per SEP. Casemix tinggal verifikasi.</p>
+      </article>
+      <article class="compare">
+        <span class="pill pill--before">Sebelum</span>
+        <p>Tagihan pasien baru dihitung saat pulang, tindakan terlewat, dan pendapatan bocor.</p>
+        <div class="divider"></div>
+        <span class="pill pill--after">Dengan KlikSIMRS</span>
+        <p class="compare__after">Setiap tindakan, obat, dan alkes langsung masuk billing. Kasir melihat tagihan real-time.</p>
+      </article>
+      <article class="compare">
+        <span class="pill pill--before">Sebelum</span>
+        <p>Laporan RL dan indikator BOR/LOS direkap tiap akhir bulan di spreadsheet.</p>
+        <div class="divider"></div>
+        <span class="pill pill--after">Dengan KlikSIMRS</span>
+        <p class="compare__after">Dasbor direksi dan laporan SIRS tersusun dari data harian — tersedia kapan saja.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ================= MODUL ================= -->
+<section id="modul" class="section section--soft">
+  <div class="container">
+    <div class="modules__head">
+      <div class="section-head">
+        <span class="eyebrow">Modul lengkap</span>
+        <h2 class="section-title">Mulai dari modul yang Anda butuhkan, tambah sesuai pertumbuhan RS.</h2>
+      </div>
+      <div class="filters" role="group" aria-label="Filter kategori modul">
+        <button type="button" class="filter is-active" data-filter="all" aria-pressed="true">Semua</button>
+        <button type="button" class="filter" data-filter="layanan" aria-pressed="false">Pelayanan Medis</button>
+        <button type="button" class="filter" data-filter="penunjang" aria-pressed="false">Penunjang</button>
+        <button type="button" class="filter" data-filter="keuangan" aria-pressed="false">Keuangan &amp; Klaim</button>
+        <button type="button" class="filter" data-filter="manajemen" aria-pressed="false">Manajemen</button>
+      </div>
+    </div>
+
+    <div class="modules" id="module-list">
+      <article class="module" data-cat="layanan"><div class="module__top"><span class="module__code">PD</span></div><h3>Pendaftaran &amp; Antrean</h3><p>Pendaftaran rawat jalan, IGD, dan rawat inap; terhubung antrean online Mobile JKN.</p></article>
+      <article class="module" data-cat="layanan"><div class="module__top"><span class="module__code">RJ</span></div><h3>Rawat Jalan</h3><p>Asesmen, CPPT, diagnosa ICD-10, resep, dan order penunjang dari satu layar dokter.</p></article>
+      <article class="module" data-cat="layanan"><div class="module__top"><span class="module__code">IGD</span></div><h3>Instalasi Gawat Darurat</h3><p>Triase, observasi, dan tindakan cepat dengan alur ke rawat inap atau rujukan.</p></article>
+      <article class="module" data-cat="layanan"><div class="module__top"><span class="module__code">RI</span></div><h3>Rawat Inap</h3><p>Manajemen bed, visite dokter, asuhan keperawatan, dan transfer antar ruangan.</p></article>
+      <article class="module" data-cat="layanan"><div class="module__top"><span class="module__code">HD</span></div><h3>Hemodialisa</h3><p>Jadwal HD, asesmen perawat, pemeriksaan dokter, dan paket iterasi otomatis.</p></article>
+      <article class="module" data-cat="layanan"><div class="module__top"><span class="module__code">OK</span></div><h3>Kamar Operasi</h3><p>Penjadwalan operasi, laporan anestesi, dan checklist keselamatan pasien.</p></article>
+      <article class="module" data-cat="penunjang"><div class="module__top"><span class="module__code">LAB</span></div><h3>Laboratorium</h3><p>Order dari poli dan bangsal, input hasil, nilai kritis, siap bridging LIS.</p></article>
+      <article class="module" data-cat="penunjang"><div class="module__top"><span class="module__code">RAD</span></div><h3>Radiologi</h3><p>Order pemeriksaan, expertise dokter radiologi, siap integrasi PACS.</p></article>
+      <article class="module" data-cat="penunjang"><div class="module__top"><span class="module__code">FAR</span></div><h3>Farmasi</h3><p>Resep elektronik, telaah resep, stok per depo, dan obat kronis BPJS.</p></article>
+      <article class="module" data-cat="penunjang"><div class="module__top"><span class="module__code">GZ</span></div><h3>Gizi</h3><p>Order diet pasien rawat inap dan distribusi makanan per ruangan.</p></article>
+      <article class="module" data-cat="penunjang"><div class="module__top"><span class="module__code">LOG</span></div><h3>Gudang &amp; Logistik</h3><p>Pengadaan, mutasi barang, stok opname, dan kartu stok alkes.</p></article>
+      <article class="module" data-cat="keuangan"><div class="module__top"><span class="module__code">KSR</span></div><h3>Kasir &amp; Billing</h3><p>Tagihan real-time per tindakan, deposit pasien, dan pelunasan.</p></article>
+      <article class="module" data-cat="keuangan"><div class="module__top"><span class="module__code">CMX</span></div><h3>Casemix &amp; Klaim BPJS</h3><p>SEP VClaim, koding INA-CBG, dan berkas klaim terkumpul otomatis.</p></article>
+      <article class="module" data-cat="keuangan"><div class="module__top"><span class="module__code">AKT</span><span class="tag-addon">Add-on</span></div><h3>KlikAkuntansi</h3><p>Jurnal otomatis dari setiap transaksi layanan dan laporan keuangan.</p></article>
+      <article class="module" data-cat="manajemen"><div class="module__top"><span class="module__code">RM</span></div><h3>Rekam Medis &amp; e-Dokumen</h3><p>Formulir RM terstruktur, e-dokumen, dan tanda tangan elektronik.</p></article>
+      <article class="module" data-cat="manajemen"><div class="module__top"><span class="module__code">DIR</span></div><h3>Dasbor Direksi</h3><p>BOR, LOS, TOI, kunjungan, dan pendapatan dalam satu dasbor.</p></article>
+      <article class="module" data-cat="manajemen"><div class="module__top"><span class="module__code">SIRS</span></div><h3>Laporan SIRS Kemenkes</h3><p>Laporan RL tersusun dari data harian, tanpa rekap manual.</p></article>
+      <article class="module" data-cat="manajemen"><div class="module__top"><span class="module__code">SDM</span><span class="tag-addon">Add-on</span></div><h3>KlikPersonalia</h3><p>Jadwal dinas, absensi, dan penggajian tenaga RS.</p></article>
+    </div>
+  </div>
+</section>
+
+<!-- ================= HEMODIALISA ================= -->
+<section id="hemodialisa" class="section">
+  <div class="container split">
+    <div class="split__copy">
+      <span class="eyebrow">Unggulan · Modul Hemodialisa</span>
+      <h2 class="section-title">Unit HD berjalan rapi, dari jadwal pasien rutin sampai kuota paket.</h2>
+      <p class="lead">Pasien hemodialisa datang berulang setiap minggu. KlikSIMRS mencatat setiap sesi dalam satu alur dan menghitung paket iterasi secara otomatis.</p>
+      <ol class="steps">
+        <li><span class="steps__num">1</span><div><h3>Pendaftaran HD</h3><p>Jadwal sesi rutin dan pembagian bed per shift.</p></div></li>
+        <li><span class="steps__num">2</span><div><h3>Asesmen perawat</h3><p>Tanda vital pra-HD, berat badan kering, dan akses vaskular.</p></div></li>
+        <li><span class="steps__num">3</span><div><h3>Pemeriksaan dokter</h3><p>Instruksi HD, resep, dan tindakan tercatat di RME.</p></div></li>
+        <li><span class="steps__num steps__num--accent">4</span><div><h3>Paket iterasi otomatis</h3><p>Kuota paket berkurang saat dokter menginput tindakan iterasi — tanpa hitung manual.</p></div></li>
+      </ol>
+    </div>
+    <div>
+      <div class="hd-card">
+        <div class="hd-card__head"><span class="hd-card__title">Paket Iterasi HD</span><span class="hd-card__status">Aktif</span></div>
+        <div class="hd-card__patient">
+          <span class="hd-card__label">Pasien</span>
+          <span class="hd-card__name">Tn. [Nama Pasien] · RM 00-12-3456</span>
+          <div class="hd-card__row"><span>Sesi terpakai</span><strong>6 dari 8</strong></div>
+          <div class="hd-progress"><span style="width:75%"></span></div>
+        </div>
+        <div class="hd-card__grid">
+          <div><small>Sesi hari ini</small><strong>Shift 2 · Bed 05</strong></div>
+          <div><small>Sisa kuota</small><strong>2 sesi</strong></div>
+        </div>
+        <p class="hd-card__note">Tampilan ilustrasi. Data pasien bersifat contoh.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= KENAPA KLIKSIMRS ================= -->
+<section class="section section--dark">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow eyebrow--light">Kenapa KlikSIMRS</span>
+      <h2 class="section-title section-title--light">Dirancang bersama tenaga kesehatan, bukan hanya oleh programmer.</h2>
+    </div>
+    <div class="grid grid--features">
+      <article class="feature"><img src="assets/icons/workflow.svg" alt=""><h3>Alur sesuai praktik RS</h3><p>Layar dokter, perawat, dan kasir mengikuti alur kerja nyata di poli, IGD, dan bangsal.</p></article>
+      <article class="feature"><img src="assets/icons/integration.svg" alt=""><h3>Integrasi nasional</h3><p>SATUSEHAT, VClaim, E-Klaim, dan antrean online Mobile JKN dalam satu sistem.</p></article>
+      <article class="feature"><img src="assets/icons/finance.svg" alt=""><h3>Keuangan terkendali</h3><p>Billing real-time, kontrol klaim, dan jurnal otomatis lewat add-on KlikAkuntansi.</p></article>
+      <article class="feature"><img src="assets/icons/shield.svg" alt=""><h3>Data aman &amp; terlacak</h3><p>Hak akses per peran, log aktivitas, dan backup rutin untuk data rekam medis.</p></article>
+      <article class="feature"><img src="assets/icons/support.svg" alt=""><h3>Support yang responsif</h3><p>Tim support via WhatsApp dan tiket, dengan pendampingan on-site saat go-live.</p></article>
+      <article class="feature"><img src="assets/icons/modular.svg" alt=""><h3>Modular &amp; bisa dikembangkan</h3><p>Mulai dari modul inti, tambah modul atau kustomisasi saat RS berkembang.</p></article>
+    </div>
+  </div>
+</section>
+
+<!-- ================= IMPLEMENTASI ================= -->
+<section class="section">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Implementasi terdampingi</span>
+      <h2 class="section-title">Dari kick-off sampai go-live, tim kami ada di RS Anda.</h2>
+    </div>
+    <div class="grid grid--4">
+      <article class="phase"><span class="phase__num">01 · Analisis</span><h3>Pemetaan alur RS</h3><p>Survei unit layanan, tarif, dan formulir RM yang dipakai saat ini.</p></article>
+      <article class="phase"><span class="phase__num">02 · Konfigurasi</span><h3>Setup &amp; migrasi data</h3><p>Master data, tarif, dan data pasien lama dipindahkan ke KlikSIMRS.</p></article>
+      <article class="phase"><span class="phase__num">03 · Pelatihan</span><h3>Pelatihan per unit</h3><p>Sesi untuk dokter, perawat, farmasi, kasir, dan casemix.</p></article>
+      <article class="phase phase--accent"><span class="phase__num">04 · Go-live</span><h3>Pendampingan on-site</h3><p>Tim standby di RS pada minggu pertama, lalu support berkelanjutan.</p></article>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PAKET ================= -->
+<section id="paket" class="section section--soft">
+  <div class="container">
+    <div class="section-head section-head--center">
+      <span class="eyebrow">Paket</span>
+      <h2 class="section-title">Disesuaikan dengan kelas dan kebutuhan rumah sakit.</h2>
+    </div>
+    <div class="plans">
+      <article class="plan">
+        <h3 class="plan__name">Esensial</h3>
+        <p class="plan__for">Untuk RS Tipe D &amp; RS baru</p>
+        <p class="plan__price">[HARGA]</p>
+        <ul class="plan__list"><li>Pendaftaran, Rawat Jalan, IGD</li><li>Rawat Inap dasar</li><li>Farmasi &amp; Kasir</li><li>Bridging SATUSEHAT &amp; BPJS</li></ul>
+        <a href="#demo" class="btn btn--outline-primary btn--lg btn--block">Konsultasi Paket</a>
+      </article>
+      <article class="plan plan--featured">
+        <span class="plan__ribbon">Paling diminati</span>
+        <h3 class="plan__name">Profesional</h3>
+        <p class="plan__for">Untuk RS Tipe C</p>
+        <p class="plan__price">[HARGA]</p>
+        <ul class="plan__list"><li>Semua modul Esensial</li><li>Lab, Radiologi, Hemodialisa</li><li>Casemix &amp; E-Klaim INA-CBG</li><li>Dasbor direksi &amp; laporan SIRS</li></ul>
+        <a href="#demo" class="btn btn--accent btn--lg btn--block">Konsultasi Paket</a>
+      </article>
+      <article class="plan">
+        <h3 class="plan__name">Enterprise</h3>
+        <p class="plan__for">Untuk RS Tipe B &amp; grup RS</p>
+        <p class="plan__price">Hubungi tim</p>
+        <ul class="plan__list"><li>Semua modul Profesional</li><li>Kamar Operasi, Gizi, Logistik</li><li>Multi-cabang &amp; kustomisasi</li><li>Add-on Akuntansi &amp; Personalia</li></ul>
+        <a href="#demo" class="btn btn--outline-primary btn--lg btn--block">Konsultasi Paket</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ================= TESTIMONI ================= -->
+<section class="section">
+  <div class="container">
+    <div class="section-head section-head--center">
+      <h2 class="section-title">Apa kata rumah sakit pengguna KlikSIMRS</h2>
+    </div>
+    <div class="grid grid--3">
+      <figure class="testimonial">
+        <blockquote>“[Kutipan testimoni dari direktur RS tentang dampak KlikSIMRS pada klaim BPJS.]”</blockquote>
+        <figcaption><span class="avatar">FT</span><div><div class="testimonial__name">[Nama &amp; Jabatan]</div><div class="testimonial__org">[Nama Rumah Sakit]</div></div></figcaption>
+      </figure>
+      <figure class="testimonial">
+        <blockquote>“[Kutipan testimoni dari kepala unit hemodialisa tentang paket iterasi.]”</blockquote>
+        <figcaption><span class="avatar">FT</span><div><div class="testimonial__name">[Nama &amp; Jabatan]</div><div class="testimonial__org">[Nama Rumah Sakit]</div></div></figcaption>
+      </figure>
+      <figure class="testimonial">
+        <blockquote>“[Kutipan testimoni dari kepala rekam medis atau IT RS.]”</blockquote>
+        <figcaption><span class="avatar">FT</span><div><div class="testimonial__name">[Nama &amp; Jabatan]</div><div class="testimonial__org">[Nama Rumah Sakit]</div></div></figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FAQ ================= -->
+<section id="faq" class="section section--soft">
+  <div class="container">
+    <div class="section-head section-head--center">
+      <h2 class="section-title">Pertanyaan yang sering diajukan</h2>
+    </div>
+    <div class="faq">
+      <details open>
+        <summary>Berapa lama proses implementasi KlikSIMRS?</summary>
+        <p>Umumnya [DURASI] minggu, tergantung tipe RS dan jumlah modul. Tim kami mendampingi dari pemetaan alur, migrasi data, pelatihan, hingga go-live.</p>
+      </details>
+      <details>
+        <summary>Apakah sudah terintegrasi SATUSEHAT dan BPJS?</summary>
+        <p>Ya. KlikSIMRS mengirim data ke SATUSEHAT dan terhubung dengan VClaim, E-Klaim INA-CBG, serta antrean online Mobile JKN.</p>
+      </details>
+      <details>
+        <summary>Apakah data dari SIMRS lama bisa dipindahkan?</summary>
+        <p>Bisa. Data pasien, master tarif, dan riwayat kunjungan dapat dimigrasi setelah kami melakukan pemetaan struktur data lama.</p>
+      </details>
+      <details>
+        <summary>Apakah tersedia versi cloud dan server lokal?</summary>
+        <p>[Sesuaikan: cloud, on-premise, atau keduanya] — pilihan menyesuaikan kebijakan TI dan kondisi jaringan rumah sakit.</p>
+      </details>
+      <details>
+        <summary>Bagaimana dukungan teknis setelah go-live?</summary>
+        <p>Support melalui WhatsApp dan sistem tiket, dengan nomor laporan untuk setiap kendala, serta kunjungan on-site bila diperlukan.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CTA + FORM ================= -->
+<section id="demo" class="section">
+  <div class="container">
+    <div class="cta">
+      <div class="cta__copy">
+        <h2 class="cta__title">Lihat KlikSIMRS bekerja di alur RS Anda.</h2>
+        <p class="cta__text">Demo 45 menit bersama tim kami — kami tunjukkan modul yang paling relevan untuk tipe dan unit layanan RS Anda.</p>
+        <div class="cta__contacts">
+          <a href="https://wa.me/6289699935552" target="_blank" rel="noopener">WhatsApp: 0896-9993-5552</a>
+          <a href="mailto:hallo@klikmedis.com">Email: hallo@klikmedis.com</a>
+        </div>
+      </div>
+      <form class="form" id="demo-form" aria-label="Form jadwalkan demo" novalidate>
+        <div class="field">
+          <label for="f-nama">Nama lengkap</label>
+          <input id="f-nama" name="nama" type="text" placeholder="dr. Andi Pratama" required>
+        </div>
+        <div class="field">
+          <label for="f-rs">Nama rumah sakit</label>
+          <input id="f-rs" name="rs" type="text" placeholder="RS ..." required>
+        </div>
+        <div class="field-row">
+          <div class="field">
+            <label for="f-tipe">Tipe RS</label>
+            <select id="f-tipe" name="tipe">
+              <option>Tipe D</option>
+              <option>Tipe C</option>
+              <option>Tipe B</option>
+              <option>Grup / multi-cabang</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="f-wa">No. WhatsApp</label>
+            <input id="f-wa" name="wa" type="tel" placeholder="08xx" required>
+          </div>
+        </div>
+        <button type="submit" class="btn btn--accent btn--lg btn--block">Jadwalkan Demo Gratis</button>
+        <p class="form__success" role="status">Terima kasih — WhatsApp akan terbuka untuk mengirim permintaan demo Anda.</p>
+        <p class="form__note">Tim kami menghubungi Anda dalam 1×24 jam kerja.</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div class="footer__col">
+        <img src="assets/logo-white.svg" alt="KlikSIMRS" width="172" height="40">
+        <p>Sistem Informasi Manajemen Rumah Sakit untuk pelayanan yang terhubung dan klaim yang rapi.</p>
+      </div>
+      <div class="footer__col">
+        <span class="footer__title">Produk Kami</span>
+        <a href="#">Sistem Manajemen Klinik — KlikMedis</a>
+        <a href="#">Puskesmas — KlikSIMPUS</a>
+        <a href="#">Rumah Sakit — KlikSIMRS</a>
+        <a href="#">WhatsApp Gateway — WACloud</a>
+        <a href="#">Sistem HRD — KlikPersonalia</a>
+        <a href="#">Sistem Akuntansi — KlikAkuntansi</a>
+      </div>
+      <div class="footer__col">
+        <span class="footer__title">Kontak</span>
+        <a href="https://wa.me/6289699935552" target="_blank" rel="noopener">WA 0896-9993-5552</a>
+        <a href="mailto:hallo@klikmedis.com">hallo@klikmedis.com</a>
+        <address>Perumahan Villa Cilame Indah B16, Cilame, Ngamprah, Kab. Bandung Barat, Jawa Barat</address>
+      </div>
+      <div class="footer__col">
+        <span class="footer__title">Ikuti Kami</span>
+        <div class="socials">
+          <a href="#" aria-label="Instagram"><img src="assets/icons/instagram.svg" alt=""></a>
+          <a href="#" aria-label="YouTube"><img src="assets/icons/youtube.svg" alt=""></a>
+          <a href="#" aria-label="LinkedIn"><img src="assets/icons/linkedin.svg" alt=""></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">© <span id="year">2026</span> KlikSIMRS. Seluruh hak cipta dilindungi.</div>
+  </div>
+</footer>
+
+<script src="js/main.js" defer></script>
+</body>
+</html>
