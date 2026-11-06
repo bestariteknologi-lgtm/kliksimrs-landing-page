@@ -209,12 +209,16 @@ button, input, select { font-family: inherit; }
 .plan { background: #FFFFFF; border: 1px solid #E2E7F4; border-radius: 20px; padding: 32px; display: flex; flex-direction: column; gap: 18px; position: relative; }
 .plan__name { font-size: 20px; font-weight: 800; color: var(--ink); }
 .plan__for { font-size: 15px; color: var(--muted); }
-.plan__price { font-size: 28px; font-weight: 800; color: var(--primary); }
+.plan__price { font-size: 32px; font-weight: 800; color: var(--primary); display: flex; align-items: baseline; gap: 6px; letter-spacing: -0.02em; }
+.plan__period { font-size: 14px; font-weight: 600; color: var(--subtle); letter-spacing: normal; }
+.plan__note { font-size: 13px; font-weight: 600; color: var(--muted); padding-bottom: 14px; border-bottom: 1px solid var(--line); }
 .plan__list { display: flex; flex-direction: column; gap: 10px; font-size: 15px; color: var(--text); list-style: none; margin: 0; padding: 0; }
 .plan__list li::before { content: "✓"; margin-right: 8px; font-weight: 800; color: var(--success); }
 .plan .btn { margin-top: auto; }
-.plan--featured { background: var(--primary); border-color: var(--primary); }
+.plan--featured { background: var(--primary); border-color: var(--primary); box-shadow: 0 24px 48px -18px rgba(10,28,133,0.4); }
 .plan--featured .plan__name, .plan--featured .plan__price { color: #FFFFFF; }
+.plan--featured .plan__period { color: var(--on-primary); }
+.plan--featured .plan__note { color: var(--on-primary); border-bottom-color: rgba(255,255,255,0.16); }
 .plan--featured .plan__for { color: var(--on-primary); }
 .plan--featured .plan__list { color: var(--tint); }
 .plan--featured .plan__list li::before { color: var(--accent-soft); }
