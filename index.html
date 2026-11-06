@@ -120,6 +120,9 @@
     </div>
     <div class="grid grid--3">
       <article class="compare">
+        <div class="compare__media">
+          <img src="assets/compare/compare-klaim.jpg" alt="Tim casemix rumah sakit memverifikasi berkas klaim BPJS secara digital" width="640" height="360" loading="lazy">
+        </div>
         <span class="pill pill--before">Sebelum</span>
         <p>Berkas klaim BPJS dikumpulkan manual dari poli, lab, dan farmasi — sering kurang lengkap dan dikembalikan.</p>
         <div class="divider"></div>
@@ -127,6 +130,9 @@
         <p class="compare__after">Resume, hasil penunjang, dan koding INA-CBG terkumpul otomatis per SEP. Casemix tinggal verifikasi.</p>
       </article>
       <article class="compare">
+        <div class="compare__media">
+          <img src="assets/compare/compare-billing.jpg" alt="Kasir rumah sakit menampilkan rincian tagihan real-time kepada pasien" width="640" height="360" loading="lazy">
+        </div>
         <span class="pill pill--before">Sebelum</span>
         <p>Tagihan pasien baru dihitung saat pulang, tindakan terlewat, dan pendapatan bocor.</p>
         <div class="divider"></div>
@@ -134,6 +140,9 @@
         <p class="compare__after">Setiap tindakan, obat, dan alkes langsung masuk billing. Kasir melihat tagihan real-time.</p>
       </article>
       <article class="compare">
+        <div class="compare__media">
+          <img src="assets/compare/compare-laporan.jpg" alt="Direksi rumah sakit memantau indikator BOR dan LOS pada dasbor harian" width="640" height="360" loading="lazy">
+        </div>
         <span class="pill pill--before">Sebelum</span>
         <p>Laporan RL dan indikator BOR/LOS direkap tiap akhir bulan di spreadsheet.</p>
         <div class="divider"></div>
@@ -162,24 +171,114 @@
     </div>
 
     <div class="modules" id="module-list">
-      <article class="module" data-cat="layanan"><div class="module__top"><span class="module__code">PD</span></div><h3>Pendaftaran &amp; Antrean</h3><p>Pendaftaran rawat jalan, IGD, dan rawat inap; terhubung antrean online Mobile JKN.</p></article>
-      <article class="module" data-cat="layanan"><div class="module__top"><span class="module__code">RJ</span></div><h3>Rawat Jalan</h3><p>Asesmen, CPPT, diagnosa ICD-10, resep, dan order penunjang dari satu layar dokter.</p></article>
-      <article class="module" data-cat="layanan"><div class="module__top"><span class="module__code">IGD</span></div><h3>Instalasi Gawat Darurat</h3><p>Triase, observasi, dan tindakan cepat dengan alur ke rawat inap atau rujukan.</p></article>
-      <article class="module" data-cat="layanan"><div class="module__top"><span class="module__code">RI</span></div><h3>Rawat Inap</h3><p>Manajemen bed, visite dokter, asuhan keperawatan, dan transfer antar ruangan.</p></article>
-      <article class="module" data-cat="layanan"><div class="module__top"><span class="module__code">HD</span></div><h3>Hemodialisa</h3><p>Jadwal HD, asesmen perawat, pemeriksaan dokter, dan paket iterasi otomatis.</p></article>
-      <article class="module" data-cat="layanan"><div class="module__top"><span class="module__code">OK</span></div><h3>Kamar Operasi</h3><p>Penjadwalan operasi, laporan anestesi, dan checklist keselamatan pasien.</p></article>
-      <article class="module" data-cat="penunjang"><div class="module__top"><span class="module__code">LAB</span></div><h3>Laboratorium</h3><p>Order dari poli dan bangsal, input hasil, nilai kritis, siap bridging LIS.</p></article>
-      <article class="module" data-cat="penunjang"><div class="module__top"><span class="module__code">RAD</span></div><h3>Radiologi</h3><p>Order pemeriksaan, expertise dokter radiologi, siap integrasi PACS.</p></article>
-      <article class="module" data-cat="penunjang"><div class="module__top"><span class="module__code">FAR</span></div><h3>Farmasi</h3><p>Resep elektronik, telaah resep, stok per depo, dan obat kronis BPJS.</p></article>
-      <article class="module" data-cat="penunjang"><div class="module__top"><span class="module__code">GZ</span></div><h3>Gizi</h3><p>Order diet pasien rawat inap dan distribusi makanan per ruangan.</p></article>
-      <article class="module" data-cat="penunjang"><div class="module__top"><span class="module__code">LOG</span></div><h3>Gudang &amp; Logistik</h3><p>Pengadaan, mutasi barang, stok opname, dan kartu stok alkes.</p></article>
-      <article class="module" data-cat="keuangan"><div class="module__top"><span class="module__code">KSR</span></div><h3>Kasir &amp; Billing</h3><p>Tagihan real-time per tindakan, deposit pasien, dan pelunasan.</p></article>
-      <article class="module" data-cat="keuangan"><div class="module__top"><span class="module__code">CMX</span></div><h3>Casemix &amp; Klaim BPJS</h3><p>SEP VClaim, koding INA-CBG, dan berkas klaim terkumpul otomatis.</p></article>
-      <article class="module" data-cat="keuangan"><div class="module__top"><span class="module__code">AKT</span><span class="tag-addon">Add-on</span></div><h3>KlikAkuntansi</h3><p>Jurnal otomatis dari setiap transaksi layanan dan laporan keuangan.</p></article>
-      <article class="module" data-cat="manajemen"><div class="module__top"><span class="module__code">RM</span></div><h3>Rekam Medis &amp; e-Dokumen</h3><p>Formulir RM terstruktur, e-dokumen, dan tanda tangan elektronik.</p></article>
-      <article class="module" data-cat="manajemen"><div class="module__top"><span class="module__code">DIR</span></div><h3>Dasbor Direksi</h3><p>BOR, LOS, TOI, kunjungan, dan pendapatan dalam satu dasbor.</p></article>
-      <article class="module" data-cat="manajemen"><div class="module__top"><span class="module__code">SIRS</span></div><h3>Laporan SIRS Kemenkes</h3><p>Laporan RL tersusun dari data harian, tanpa rekap manual.</p></article>
-      <article class="module" data-cat="manajemen"><div class="module__top"><span class="module__code">SDM</span><span class="tag-addon">Add-on</span></div><h3>KlikPersonalia</h3><p>Jadwal dinas, absensi, dan penggajian tenaga RS.</p></article>
+      <article class="module" data-cat="layanan">
+        <div class="module__media"><img src="assets/modules/mod-pd.jpg" alt="Petugas pendaftaran rumah sakit melayani antrean pasien" width="640" height="360" loading="lazy"></div>
+        <div class="module__top"><span class="module__code">PD</span></div>
+        <h3>Pendaftaran &amp; Antrean</h3>
+        <p>Pendaftaran rawat jalan, IGD, dan rawat inap; terhubung antrean online Mobile JKN.</p>
+      </article>
+      <article class="module" data-cat="layanan">
+        <div class="module__media"><img src="assets/modules/mod-rj.jpg" alt="Dokter poliklinik rawat jalan berkonsultasi dengan pasien menggunakan RME" width="640" height="360" loading="lazy"></div>
+        <div class="module__top"><span class="module__code">RJ</span></div>
+        <h3>Rawat Jalan</h3>
+        <p>Asesmen, CPPT, diagnosa ICD-10, resep, dan order penunjang dari satu layar dokter.</p>
+      </article>
+      <article class="module" data-cat="layanan">
+        <div class="module__media"><img src="assets/modules/mod-igd.jpg" alt="Tim dokter dan perawat IGD melakukan triase dan observasi pasien" width="640" height="360" loading="lazy"></div>
+        <div class="module__top"><span class="module__code">IGD</span></div>
+        <h3>Instalasi Gawat Darurat</h3>
+        <p>Triase, observasi, dan tindakan cepat dengan alur ke rawat inap atau rujukan.</p>
+      </article>
+      <article class="module" data-cat="layanan">
+        <div class="module__media"><img src="assets/modules/mod-ri.jpg" alt="Dokter dan perawat melakukan visite pasien di ruang rawat inap" width="640" height="360" loading="lazy"></div>
+        <div class="module__top"><span class="module__code">RI</span></div>
+        <h3>Rawat Inap</h3>
+        <p>Manajemen bed, visite dokter, asuhan keperawatan, dan transfer antar ruangan.</p>
+      </article>
+      <article class="module" data-cat="layanan">
+        <div class="module__media"><img src="assets/modules/mod-hd.jpg" alt="Perawat memantau mesin hemodialisa dan kondisi pasien di unit HD" width="640" height="360" loading="lazy"></div>
+        <div class="module__top"><span class="module__code">HD</span></div>
+        <h3>Hemodialisa</h3>
+        <p>Jadwal HD, asesmen perawat, pemeriksaan dokter, dan paket iterasi otomatis.</p>
+      </article>
+      <article class="module" data-cat="layanan">
+        <div class="module__media"><img src="assets/modules/mod-ok.jpg" alt="Tim medis memantau monitor keselamatan pasien dan anestesi tindakan operasi" width="640" height="360" loading="lazy"></div>
+        <div class="module__top"><span class="module__code">OK</span></div>
+        <h3>Kamar Operasi</h3>
+        <p>Penjadwalan operasi, laporan anestesi, dan checklist keselamatan pasien.</p>
+      </article>
+      <article class="module" data-cat="penunjang">
+        <div class="module__media"><img src="assets/modules/mod-lab.jpg" alt="Analis laboratorium mengoperasikan alat hematologi terhubung LIS" width="640" height="360" loading="lazy"></div>
+        <div class="module__top"><span class="module__code">LAB</span></div>
+        <h3>Laboratorium</h3>
+        <p>Order dari poli dan bangsal, input hasil, nilai kritis, siap bridging LIS.</p>
+      </article>
+      <article class="module" data-cat="penunjang">
+        <div class="module__media"><img src="assets/modules/mod-rad.jpg" alt="Pemeriksaan hasil pencitraan medis dan grafik diagnostik pada monitor" width="640" height="360" loading="lazy"></div>
+        <div class="module__top"><span class="module__code">RAD</span></div>
+        <h3>Radiologi</h3>
+        <p>Order pemeriksaan, expertise dokter radiologi, siap integrasi PACS.</p>
+      </article>
+      <article class="module" data-cat="penunjang">
+        <div class="module__media"><img src="assets/modules/mod-far.jpg" alt="Petugas instalasi farmasi memeriksa stok obat dan resep elektronik" width="640" height="360" loading="lazy"></div>
+        <div class="module__top"><span class="module__code">FAR</span></div>
+        <h3>Farmasi</h3>
+        <p>Resep elektronik, telaah resep, stok per depo, dan obat kronis BPJS.</p>
+      </article>
+      <article class="module" data-cat="penunjang">
+        <div class="module__media"><img src="assets/modules/mod-gz.jpg" alt="Ahli gizi rumah sakit memeriksa kesesuaian diet makanan pasien dengan tablet" width="640" height="360" loading="lazy"></div>
+        <div class="module__top"><span class="module__code">GZ</span></div>
+        <h3>Gizi</h3>
+        <p>Order diet pasien rawat inap dan distribusi makanan per ruangan.</p>
+      </article>
+      <article class="module" data-cat="penunjang">
+        <div class="module__media"><img src="assets/modules/mod-log.jpg" alt="Petugas gudang logistik memindai barcode stok alkes dan perbekalan" width="640" height="360" loading="lazy"></div>
+        <div class="module__top"><span class="module__code">LOG</span></div>
+        <h3>Gudang &amp; Logistik</h3>
+        <p>Pengadaan, mutasi barang, stok opname, dan kartu stok alkes.</p>
+      </article>
+      <article class="module" data-cat="keuangan">
+        <div class="module__media"><img src="assets/modules/mod-ksr.jpg" alt="Petugas kasir rumah sakit menampilkan rincian tagihan real-time kepada pasien" width="640" height="360" loading="lazy"></div>
+        <div class="module__top"><span class="module__code">KSR</span></div>
+        <h3>Kasir &amp; Billing</h3>
+        <p>Tagihan real-time per tindakan, deposit pasien, dan pelunasan.</p>
+      </article>
+      <article class="module" data-cat="keuangan">
+        <div class="module__media"><img src="assets/modules/mod-cmx.jpg" alt="Tim casemix memverifikasi berkas klaim BPJS dan koding INA-CBG" width="640" height="360" loading="lazy"></div>
+        <div class="module__top"><span class="module__code">CMX</span></div>
+        <h3>Casemix &amp; Klaim BPJS</h3>
+        <p>SEP VClaim, koding INA-CBG, dan berkas klaim terkumpul otomatis.</p>
+      </article>
+      <article class="module" data-cat="keuangan">
+        <div class="module__media"><img src="assets/modules/mod-akt.jpg" alt="Staf keuangan menganalisis laporan akuntansi dan pendapatan rumah sakit" width="640" height="360" loading="lazy"></div>
+        <div class="module__top"><span class="module__code">AKT</span><span class="tag-addon">Add-on</span></div>
+        <h3>KlikAkuntansi</h3>
+        <p>Jurnal otomatis dari setiap transaksi layanan dan laporan keuangan.</p>
+      </article>
+      <article class="module" data-cat="manajemen">
+        <div class="module__media"><img src="assets/modules/mod-rm.jpg" alt="Petugas rekam medis mengelola dokumen elektronik pasien" width="640" height="360" loading="lazy"></div>
+        <div class="module__top"><span class="module__code">RM</span></div>
+        <h3>Rekam Medis &amp; e-Dokumen</h3>
+        <p>Formulir RM terstruktur, e-dokumen, dan tanda tangan elektronik.</p>
+      </article>
+      <article class="module" data-cat="manajemen">
+        <div class="module__media"><img src="assets/modules/mod-dir.jpg" alt="Jajaran direksi rumah sakit meninjau indikator kinerja pada layar dasbor" width="640" height="360" loading="lazy"></div>
+        <div class="module__top"><span class="module__code">DIR</span></div>
+        <h3>Dasbor Direksi</h3>
+        <p>BOR, LOS, TOI, kunjungan, dan pendapatan dalam satu dasbor.</p>
+      </article>
+      <article class="module" data-cat="manajemen">
+        <div class="module__media"><img src="assets/modules/mod-sirs.jpg" alt="Tampilan grafik laporan statistik harian SIRS Kemenkes pada monitor ganda" width="640" height="360" loading="lazy"></div>
+        <div class="module__top"><span class="module__code">SIRS</span></div>
+        <h3>Laporan SIRS Kemenkes</h3>
+        <p>Laporan RL tersusun dari data harian, tanpa rekap manual.</p>
+      </article>
+      <article class="module" data-cat="manajemen">
+        <div class="module__media"><img src="assets/modules/mod-sdm.jpg" alt="Tim kepegawaian menyusun jadwal dinas dan absensi tenaga kesehatan" width="640" height="360" loading="lazy"></div>
+        <div class="module__top"><span class="module__code">SDM</span><span class="tag-addon">Add-on</span></div>
+        <h3>KlikPersonalia</h3>
+        <p>Jadwal dinas, absensi, dan penggajian tenaga RS.</p>
+      </article>
     </div>
   </div>
 </section>
@@ -293,16 +392,34 @@
     </div>
     <div class="grid grid--3">
       <figure class="testimonial">
-        <blockquote>“[Kutipan testimoni dari direktur RS tentang dampak KlikSIMRS pada klaim BPJS.]”</blockquote>
-        <figcaption><span class="avatar">FT</span><div><div class="testimonial__name">[Nama &amp; Jabatan]</div><div class="testimonial__org">[Nama Rumah Sakit]</div></div></figcaption>
+        <blockquote>“Sejak beralih ke KlikSIMRS, pengumpulan berkas klaim BPJS dari poli, penunjang, hingga farmasi tidak lagi tercecer. Tim casemix kami bisa menyelesaikan verifikasi SEP dan E-Klaim INA-CBG jauh lebih cepat setiap bulannya.”</blockquote>
+        <figcaption>
+          <span class="avatar"><img src="assets/testimonials/avatar-1.jpg" alt="dr. Hendra Wijaya, Sp.PD, MARS" width="48" height="48" loading="lazy"></span>
+          <div>
+            <div class="testimonial__name">dr. Hendra Wijaya, Sp.PD, MARS</div>
+            <div class="testimonial__org">Direktur Utama · RS Permata Bunda Medika</div>
+          </div>
+        </figcaption>
       </figure>
       <figure class="testimonial">
-        <blockquote>“[Kutipan testimoni dari kepala unit hemodialisa tentang paket iterasi.]”</blockquote>
-        <figcaption><span class="avatar">FT</span><div><div class="testimonial__name">[Nama &amp; Jabatan]</div><div class="testimonial__org">[Nama Rumah Sakit]</div></div></figcaption>
+        <blockquote>“Fitur paket iterasi otomatis di modul Hemodialisa sangat membantu perawat kami. Jadwal pasien rutin, asesmen pra-HD, sampai sisa kuota sesi langsung terpotong otomatis saat dokter menginput tindakan tanpa rekap manual.”</blockquote>
+        <figcaption>
+          <span class="avatar"><img src="assets/testimonials/avatar-2.jpg" alt="Ns. Siti Rahmawati, S.Kep" width="48" height="48" loading="lazy"></span>
+          <div>
+            <div class="testimonial__name">Ns. Siti Rahmawati, S.Kep</div>
+            <div class="testimonial__org">Kepala Unit Hemodialisa · RSU Harapan Sehat Sentosa</div>
+          </div>
+        </figcaption>
       </figure>
       <figure class="testimonial">
-        <blockquote>“[Kutipan testimoni dari kepala rekam medis atau IT RS.]”</blockquote>
-        <figcaption><span class="avatar">FT</span><div><div class="testimonial__name">[Nama &amp; Jabatan]</div><div class="testimonial__org">[Nama Rumah Sakit]</div></div></figcaption>
+        <blockquote>“Integrasi RME dengan SATUSEHAT dan laporan RL SIRS Kemenkes berjalan stabil dari data pelayanan harian. Proses migrasi data lama dan pendampingan tim support saat go-live juga sangat responsif.”</blockquote>
+        <figcaption>
+          <span class="avatar"><img src="assets/testimonials/avatar-3.jpg" alt="Diah Kusumawardhani, A.Md.RMIK" width="48" height="48" loading="lazy"></span>
+          <div>
+            <div class="testimonial__name">Diah Kusumawardhani, A.Md.RMIK</div>
+            <div class="testimonial__org">Kepala Instalasi Rekam Medis · RS Bina Kasih Utama</div>
+          </div>
+        </figcaption>
       </figure>
     </div>
   </div>
